@@ -14,6 +14,7 @@ class Dog
     each |dog|
     prints dog 
   end 
+  end 
   
   def save 
     @@all << self
