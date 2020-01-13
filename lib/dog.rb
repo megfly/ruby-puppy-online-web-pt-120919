@@ -11,10 +11,9 @@ class Dog
   end 
   
   def self.print_all
-    each |dog|
-    prints dog 
+    
   end 
-  end 
+ 
   
   def save 
     @@all << self
