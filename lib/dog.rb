@@ -11,4 +11,9 @@ class Dog
     @@all
   end 
   
+  def self.print_all
+    each |dog|
+    prints dog 
+  end 
+  
 end 
