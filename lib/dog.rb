@@ -16,4 +16,8 @@ class Dog
     prints dog 
   end 
   
+  def save 
+    @@all << self
+  end 
+  
 end 
